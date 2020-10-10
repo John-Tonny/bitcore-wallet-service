@@ -1,0 +1,1 @@
+{"version":3,"file":"bitstamp.js","sourceRoot":"","sources":["../../../src/lib/fiatrateproviders/bitstamp.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,GAAG;IACf,IAAI,EAAE,UAAU;IAChB,GAAG,EAAE,sCAAsC;IAC3C,OAAO,YAAC,GAAG;QACT,OAAO;YACL;gBACE,IAAI,EAAE,KAAK;gBACX,KAAK,EAAE,UAAU,CAAC,GAAG,CAAC,IAAI,CAAC;aAC5B;SACF,CAAC;IACJ,CAAC;CACF,CAAC"}

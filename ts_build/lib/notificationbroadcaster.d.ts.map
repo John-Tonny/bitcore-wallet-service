@@ -1,0 +1,1 @@
+{"version":3,"file":"notificationbroadcaster.d.ts","sourceRoot":"","sources":["../../src/lib/notificationbroadcaster.ts"],"names":[],"mappings":";AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,QAAQ,CAAC;AAGtC,qBAAa,uBAAwB,SAAQ,YAAY;IACvD,SAAS,CAAC,SAAS,KAAA,EAAE,YAAY,KAAA,EAAE,aAAa,KAAA;IAGhD,MAAM,CAAC,SAAS;CAMjB"}

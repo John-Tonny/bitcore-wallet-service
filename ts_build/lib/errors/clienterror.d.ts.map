@@ -1,0 +1,1 @@
+{"version":3,"file":"clienterror.d.ts","sourceRoot":"","sources":["../../../src/lib/errors/clienterror.ts"],"names":[],"mappings":"AAAA,qBAAa,WAAW;IACtB,IAAI,EAAE,MAAM,CAAC;IACb,IAAI,EAAE,MAAM,CAAC;IACb,OAAO,EAAE,MAAM,CAAC;gBACJ,GAAG,IAAI,OAAA;IAmBnB,QAAQ;CAGT"}

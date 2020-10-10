@@ -1,0 +1,53 @@
+import * as request from 'request-promise-native';
+import { Client } from './v8/client';
+export declare class V8 {
+    chain: string;
+    coin: string;
+    network: string;
+    v8network: string;
+    addressFormat: string;
+    apiPrefix: string;
+    host: string;
+    userAgent: string;
+    baseUrl: string;
+    request: request;
+    Client: typeof Client;
+    constructor(opts: any);
+    _getClient(): Client;
+    _getAuthClient(wallet: any): Client;
+    addAddresses(wallet: any, addresses: any, cb: any): void;
+    register(wallet: any, cb: any): any;
+    getBalance(wallet: any, cb: any): Promise<void>;
+    getConnectionInfo(): string;
+    _transformUtxos(unspent: any, bcheight: any): {
+        address: any;
+        satoshis: any;
+        amount: number;
+        scriptPubKey: any;
+        txid: any;
+        vout: any;
+        locked: boolean;
+        confirmations: number;
+    }[];
+    getUtxos(wallet: any, height: any, cb: any): void;
+    getCoinsForTx(txId: any, cb: any): void;
+    getCheckData(wallet: any, cb: any): void;
+    broadcast(rawTx: any, cb: any, count?: number): void;
+    getTransaction(txid: any, cb: any): void;
+    getAddressUtxos(address: any, height: any, cb: any): void;
+    getTransactions(wallet: any, startBlock: any, cb: any): void;
+    getAddressActivity(address: any, cb: any): void;
+    getTransactionCount(address: any, cb: any): void;
+    estimateGas(opts: any, cb: any): void;
+    getMultisigContractInstantiationInfo(opts: any, cb: any): void;
+    getMultisigContractInfo(opts: any, cb: any): void;
+    getMultisigTxpsInfo(opts: any, cb: any): void;
+    estimateFee(nbBlocks: any, cb: any): void;
+    getBlockchainHeight(cb: any): void;
+    getTxidsInBlock(blockHash: any, cb: any): void;
+    getBlockHashInHeight(blockHeight: any, cb: any): void;
+    getMasternodeStatus(opts: any, cb: any): void;
+    broadcastMasternode(rawTx: any, cb: any, count?: number): void;
+    initSocket(callbacks: any): void;
+}
+//# sourceMappingURL=v8.d.ts.map
